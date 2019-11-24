@@ -40,7 +40,6 @@ The following features/options are not migrated due to lack of SOAP API function
 - Account used to execute the script need to be a local admin on remote systems
 - Create a DS-Config.json in the same folder with the following content:
 
-'''sh
 {
     "MANAGER": "app.deepsecurity.trendmicro.com",
     "PORT": "443",
@@ -53,7 +52,7 @@ The following features/options are not migrated due to lack of SOAP API function
     "Use_Same_Exclusions" : "False",
     "Cookies_Action" :   "DELETE"
 }
-'''sh
+
 
 ## DS-Config.json Explanation:
 - MANAGER: FQDN of local Deep security Manager or app.deepsecurity.trendmicro.com for DSaaS.
