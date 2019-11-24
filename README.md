@@ -56,16 +56,16 @@ The following features/options are not migrated due to lack of SOAP API function
 '''sh
 
 ## DS-Config.json Explanation:
-     - MANAGER: FQDN of local Deep security Manager or app.deepsecurity.trendmicro.com for DSaaS.
-     - PORT: 4119 for local or 443 for DSaaS.
-     - TENANT: DSaaS Tenant name.  No value if local.
-     - USER_NAME: a Deep Security Administrator User Name.  User for creating the policies and scan configurations.
-     - PASSWORD: Password of the Deep Security Administrator
-     - BASEPOLICY: The Base Policy name where you want the migrated policies placed under.
-     - SOURCEFILE: Name of the source file where all target OfficeScan Agents are listed
-     - Enable_Alerts: True to enable alerting of Antimalware detection. Otherwise use False. 
-     - Use_Same_Exclusions: True to use the Realtime Exclusiions for Manual and Scheduled Scaning.  Otherwise use False.
-     - Cookies_Action: Options are: DELETE, PASS
+- MANAGER: FQDN of local Deep security Manager or app.deepsecurity.trendmicro.com for DSaaS.
+- PORT: 4119 for local or 443 for DSaaS.
+- TENANT: DSaaS Tenant name.  No value if local.
+- USER_NAME: a Deep Security Administrator User Name.  User for creating the policies and scan configurations.
+- PASSWORD: Password of the Deep Security Administrator
+- BASEPOLICY: The Base Policy name where you want the migrated policies placed under.
+- SOURCEFILE: Name of the source file where all target OfficeScan Agents are listed
+- Enable_Alerts: True to enable alerting of Antimalware detection. Otherwise use False. 
+- Use_Same_Exclusions: True to use the Realtime Exclusiions for Manual and Scheduled Scaning.  Otherwise use False.
+- Cookies_Action: Options are: DELETE, PASS
 
 ## USAGE
 - Populate the source list file Migrate_OS_Settings_To_DS_SourceList.txt with the system names leaving the header intact.
