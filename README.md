@@ -5,7 +5,7 @@ AUTHOR		: Yanni Kashoqa
 
 TITLE		: OfficeScan to Deep Security Scan Configuration Migration Tool
 
-VERSION		: 1.3
+VERSION		: 1.4
 
 DESCRIPTION	: This PowerShell script will migrate OfficeScan scan settings and exclusions to Deep Security
 
